@@ -1,8 +1,8 @@
 Installation :
-To install the necessary dependencies, run the following command: npm install
+To install the necessary dependencies, run the following command : npm install
 
 Development :
-To start the development server, use the command: npm run dev
+To start the development server, use the command : npm run dev
 
 Prerequisites :
 Ensure that you have the following installed:
