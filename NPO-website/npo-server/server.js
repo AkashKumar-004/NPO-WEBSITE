@@ -4,7 +4,11 @@ const app=express();
 const cors=require('cors');
 const mongoose=require('mongoose');
 app.use(express.json());
-app.use(cors());
+// app.use(cors());
+app.use(cors({
+  origin: 'https://npo-website.vercel.app/',
+  credentials: true
+}));
 
 const PORT = process.env.PORT || 5000;
 
